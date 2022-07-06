@@ -31,7 +31,6 @@ h5 {
 .backround-banner {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-size: cover;
     height: 480px;
 }
@@ -127,6 +126,34 @@ h5 {
     padding: 10px;
     background-color: #cd91a5;
     border-radius: 10px;
+}
+
+.urgent-banner {
+    background-image: url(images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    margin-bottom: 100px;
+}
+
+.urgent-header {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: white;
+}
+
+.urgent-amount {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background: white;
+}
+
+#urgent-border-style {
+    border-style: solid;
+    border-width: 10px;
+    background: yellow;
 }
 
 .latest-news-area {
